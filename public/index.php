@@ -14,6 +14,7 @@ $calendar = new Calendar($year, $month);
   <meta name="viewport" content="width=device-width, initial-scale=1">
 -->
   <title>Calendar</title>
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="/css/calendar.css">
 </head>
 <body>
