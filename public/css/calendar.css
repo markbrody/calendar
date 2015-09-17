@@ -11,7 +11,7 @@ body {
 
 #title {
   text-align: center;
-  padding: 5px 20px;
+  padding: 0px 20px;
 }
 
 .day, .label {
@@ -21,7 +21,7 @@ body {
 }
 
 .label {
-  padding: 1px;
+  padding: 1px 1px 10px 1px;
   text-align: center;
 }
 
@@ -36,8 +36,11 @@ body {
 
 .previous, .next {
   width: 5vh;
-  height: 5vh;
+  background: #fff;
+  border: 1px solid #999;
   font-size: 1.4em;
+  -webkit-appearance: none;
+  border-radius: 0px;
 }
 
 .previous {

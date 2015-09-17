@@ -23,6 +23,7 @@ $calendar = new Calendar($year, $month);
       <button class="previous" onclick="window.location.href='/?year=<?php echo $calendar->previous['year']; ?>&month=<?php echo $calendar->previous['month']; ?>';">&laquo;</button>
       <button class="next" onclick="window.location.href='/?year=<?php echo $calendar->next['year']; ?>&month=<?php echo $calendar->next['month']; ?>';">&raquo;</button>
       <h1><?php echo $calendar->title; ?></h1>
+      <br>
     </div>
 
     <div class="label">Sunday</div>

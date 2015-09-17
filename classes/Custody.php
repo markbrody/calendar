@@ -2,7 +2,7 @@
 
 class Custody
 {
-    const START_DATE = '2015-08-19';
+    const START_DATE = '2015-07-30';
 
     public static function offset($date=null) {
         $date = is_null($date) ? date('Y-m-d') : $date;
