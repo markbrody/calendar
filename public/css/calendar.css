@@ -38,6 +38,8 @@ body {
   width: 5vh;
   height: 5vh;
   font-size: 1.4em;
+  -webkit-appearance: none;
+  border-radius: 0px;
 }
 
 .previous {
