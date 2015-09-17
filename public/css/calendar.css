@@ -11,6 +11,7 @@ body {
 
 #title {
   text-align: center;
+  padding: 5px 20px;
 }
 
 .day, .label {
@@ -26,11 +27,17 @@ body {
 
 .day {
   height: 12.5vh;
-  border: 1px solid #999999;
+  border: 1px solid #999;
 }
 
 .day p {
   margin: 7px;
+}
+
+.previous, .next {
+  width: 5vh;
+  height: 5vh;
+  font-size: 1.4em;
 }
 
 .previous {
@@ -47,26 +54,28 @@ body {
 }
 
 .arrive {
-    background: -webkit-linear-gradient(left, white , lightblue);
-    background: -o-linear-gradient(right, white, lightblue);
-    background: -moz-linear-gradient(right, white, lightblue);
-    background: linear-gradient(to right, white, lightblue);
+  background: -webkit-linear-gradient(left, #fff, #cde);
+  background: -o-linear-gradient(right, #fff, #cde);
+  background: -moz-linear-gradient(right, #fff, #cde);
+  background: linear-gradient(to right, #fff, #cde);
 }
 
 .depart {
-    background: -webkit-linear-gradient(right, white , lightblue);
-    background: -o-linear-gradient(left, white, lightblue);
-    background: -moz-linear-gradient(left, white, lightblue);
-    background: linear-gradient(to left, white, lightblue);
+  background: -webkit-linear-gradient(right, #fff, #cde);
+  background: -o-linear-gradient(left, #fff, #cde);
+  background: -moz-linear-gradient(left, #fff, #cde);
+  background: linear-gradient(to left, #fff, #cde);
 }
 
 .home {
-  background: lightblue;
+  background: #cde;
 }
 
 .away {
-  background: white;
+  background: #fff;
 }
 
-.today {color:#E81490}
+.today {
+  color : #f66;
+}
 
