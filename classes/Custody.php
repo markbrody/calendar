@@ -31,8 +31,10 @@ class Custody
             default:
                 $classname = 'away';
         }
+
         if ($offset === false)
             $classname = '';
+
         return $classname;
     }
 
