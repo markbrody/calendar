@@ -26,7 +26,7 @@ class Calendar
         $this->num_days = date('t', $this->unixtime);
         $this->start_day = date('w', $this->unixtime);
         $this->today = $this->year . $this->month == date('Yn') ? date('j') : 0;
-        $this->title = date('F Y', $this->unixtime);
+        $this->title = date('M Y', $this->unixtime);
         $this->offset = Custody::offset($month_start);
         $this->previous = $this->prev_month();
         $this->next = $this->next_month();

@@ -10,9 +10,7 @@ $calendar = new Calendar($year, $month);
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--
   <meta name="viewport" content="width=device-width, initial-scale=1">
--->
 <?php if ($calendar->today > 0): ?>
   <meta http-equiv="refresh" content="3600; url=/">
 <?php endif; ?>
@@ -30,13 +28,13 @@ $calendar = new Calendar($year, $month);
       <br>
     </div>
 
-    <div class="label">Sunday</div>
-    <div class="label">Monday</div>
-    <div class="label">Tuesday</div>
-    <div class="label">Wednesday</div>
-    <div class="label">Thursday</div>
-    <div class="label">Friday</div>
-    <div class="label">Saturday</div>
+    <div class="label">Su</div>
+    <div class="label">M</div>
+    <div class="label">Tu</div>
+    <div class="label">W</div>
+    <div class="label">Th</div>
+    <div class="label">F</div>
+    <div class="label">Sa</div>
 
 <?php foreach ($calendar->days as $day): ?>
 <?php if (is_null($day)): ?>
